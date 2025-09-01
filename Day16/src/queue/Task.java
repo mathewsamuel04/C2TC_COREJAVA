@@ -24,7 +24,7 @@ class Task implements Comparable<Task>{
     }
 }
 
-public class TaskScheduler {
+ class TaskScheduler {
     public static void main(String[] args) {
         PriorityQueue<Task> taskQueue = new PriorityQueue<>();
 
